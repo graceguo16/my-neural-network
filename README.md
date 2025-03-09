@@ -1,16 +1,24 @@
 
 Neural Network Implementation from Scratch 🧠
-Hi! This is my first time construct neural network functions in python. It contains an implementation of a simple neural network built from scratch using NumPy. The network consists of an input layer, a hidden layer with two neurons, and an output layer with a single neuron.
+
+Hi! This is my first time construct neural network functions in python. It contains an implementation of a simple neural network built from scratch using NumPy.
+The network consists of an input layer, a hidden layer with two neurons, and an output layer with a single neuron.
 
 📂 Project Structure
 neural_network.py - Defines the OurNeuralNetwork class, implementing a basic feedforward neural network with backpropagation.
+
 neuron.py - Implements a single neuron class, demonstrating the core computations of a neural network.
+
 loss_functions.py - Contains the Mean Squared Error (MSE) loss function used to evaluate the network’s performance.
+
 train1.py - Script for training the neural network on a small dataset and monitoring the loss.
+
 🚀 Getting Started
+
 1️⃣ Install Dependencies
 Ensure you have Python installed, then install NumPy and Matplotlib:
 pip install numpy matplotlib
+
 2️⃣ Run the Training Script
 To train the neural network, simply execute:
 python train1.py
